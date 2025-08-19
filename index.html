@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle de Investimentos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💰 Controle de Investimentos</h1>
+
+  <!-- Formulário de Cadastro/Atualização -->
+  <form id="form-investimento">
+    <input type="text" id="nome" placeholder="Nome do investimento" required>
+    <select id="tipo">
+      <option value="Ação">Ação</option>
+      <option value="Fundo">Fundo</option>
+      <option value="Título">Título</option>
+    </select>
+    <input type="number" id="valor" placeholder="Valor investido" required>
+    <input type="date" id="data" required>
+    <button type="submit" id="btn-submit">Cadastrar</button>
+  </form>
+
+  <!-- Tabela de Investimentos -->
+  <h2>📋 Meus Investimentos</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Tipo</th>
+        <th>Valor</th>
+        <th>Data</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="lista-investimentos"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

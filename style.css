@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+}
